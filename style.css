@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    background-color:rgb(149, 185, 86);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color:rgb(149, 185, 86);
+}
+.navbar{
+    background-color:rgb(149, 185, 86);
+}
+.logo1 img{
+    margin-left: 10px;
+    height: 100px;
+    width: 120px;
+}
+.heading h1{
+    font-size: 2.2rem;
+    margin-top: 25px;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 25px;
+    background-color:rgb(149, 185, 86);
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.aplus{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.aplus p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(149, 185, 86);
+}
+.border:hover{
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+.best-teacher{
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color:rgb(149, 185, 86);
+    display: flex;
+    justify-content: space-between;
+
+}
+.photo img{
+    max-width: 500px;
+    height: 320px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background-color:rgb(149, 185, 86);
+}
+.content1{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    font-weight: 700;
+}
+
+.content3,.content5{
+    font-size: 1.25rem;
+    margin-left: 100px;
+    font-weight: 500;
+}
+.content6{
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+.enroll{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: cursive;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(149, 185, 86);
+}
+@media(max-width:600px){
+    .heading{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading h1{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .logo1 img{
+        height: 50px;
+        width: 50px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-list{
+        font-size: 1rem;
+        margin-left: 10px;
+        justify-content: flex-start;
+    }
+    .border{
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .border:hover{
+        box-shadow: 5px 5px 0px 0px rgb(54, 54, 158);
+    }
+    .best-teacher{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo{
+        text-align: center;
+    }
+    .box{
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+    }
+    .content6{
+        margin-left: 50px;
+    }
+    .content3{
+        margin-left: 50px;
+    }
+    .content5{
+        margin-left: 50px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .content1{
+        margin-left: 50px;
+    }
+    .enroll{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+}

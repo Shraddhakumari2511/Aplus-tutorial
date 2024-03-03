@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:white
+}
+.centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    height: 100px;
+    width: 100px;
+    background-color: #acb2c7;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #444753;
+    line-height: 110px;
+}
+a i{
+    font-size: 40px;
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color:#a12863;
+}
+.fa-phone{
+    color: rgba(31, 23, 23, 0.774);
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    font-weight: 600;
+}

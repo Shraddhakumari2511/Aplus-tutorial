@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 3.9rem;
+    text-align: center;
+}
+
+.class{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.one{
+    height: 350px;
+    width: 350px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.one img{
+    height: 100%;
+    width: 100%;
+}
+.same:hover{
+   box-shadow: 12px 12px 10px 10px rgba(168, 146, 146, 0.699);
+   border-radius: 5px;
+}
+.two{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+}
+.two img{
+    height: 100%;
+    width: 100%;
+}
+.three{
+    height: 440px;
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.three img{
+    height: 100%;
+    width: 100%;
+}
+.four{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+}
+.four img{
+    height: 100%;
+    width: 100%;
+}
+.five{
+    height: 320px;
+    width: 500px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.five img{
+    height: 100%;
+    width: 100%;
+}
+.six{
+    height: 280px;
+    width: 400px;
+    border: 2px solid black;
+}
+.six img{
+    height: 100%;
+    width: 100%;
+}
+.seven{
+    height: 280px;
+    width: 400px;
+    border: 2px solid black;
+}
+.seven img{
+    height: 100%;
+    width: 100%;
+}
+.eight{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.eight img{
+    height: 100%;
+    width: 100%;
+}
+.nine{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.nine img{
+    height: 100%;
+    width: 100%;
+}
+.ten{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.ten img{
+    height: 100%;
+    width: 100%;
+}
+@media(max-width:600px){
+    h1{
+        font-size: 38px;
+    }
+    .class{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .one{
+        height: 400px;
+        width: 400px;
+    }
+    .same:hover{
+        box-shadow: 12px 12px 10px 10px rgba(168, 146, 146, 0.699);
+        border-radius: 5px;
+    }
+}
